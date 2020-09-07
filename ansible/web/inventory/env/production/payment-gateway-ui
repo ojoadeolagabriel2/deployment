@@ -1,0 +1,8 @@
+[deployers]
+localhost   ansible_connection=local
+
+[all:vars]
+project_name=payment-gateway-ui
+container_port=12345
+service_port=5000
+merchant_api_url=http://localhost:12092

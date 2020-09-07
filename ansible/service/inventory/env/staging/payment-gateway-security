@@ -1,0 +1,10 @@
+[deployers]
+localhost   ansible_connection=local
+
+[all:vars]
+username=adeola.ojo
+project_name=payment-gateway-security
+service_port=12093
+container_port=8093
+database_port=3306
+project_artifact_name=app.jar
